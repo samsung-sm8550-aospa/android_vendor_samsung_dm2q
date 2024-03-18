@@ -12,7 +12,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm2q/proprietary/vendor/etc/audio/sku_kalama/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths.xml \
     vendor/samsung/dm2q/proprietary/vendor/etc/display/qdcm_calib_data_DM2_S6E3FAC_AMB655AY01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_DM2_S6E3FAC_AMB655AY01.json \
     vendor/samsung/dm2q/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/samsung/dm2q/proprietary/vendor/etc/init/init.vendor.rilcarrier.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcarrier.rc \
+    vendor/samsung/dm2q/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
+    vendor/samsung/dm2q/proprietary/vendor/etc/init/vendor.samsung.rilchip.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.qcom.rc \
     vendor/samsung/dm2q/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \
     vendor/samsung/dm2q/proprietary/vendor/etc/sensors/config/kailua_ak991x_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_1.json \
     vendor/samsung/dm2q/proprietary/vendor/etc/sensors/config/kailua_ak991x_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_2.json \
@@ -30,10 +31,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21.b9a:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.b9a \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21.b9b:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.b9b \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21.baa:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.baa \
+    vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21.bb7:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.bb7 \
+    vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21.bb9:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.bb9 \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.bin \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21g.b9a:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.b9a \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21g.b9b:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.b9b \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21g.baa:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.baa \
+    vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21g.bb7:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.bb7 \
+    vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21g.bb9:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.bb9 \
     vendor/samsung/dm2q/proprietary/vendor/firmware/hpnv21g.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.bin \
     vendor/samsung/dm2q/proprietary/vendor/firmware/mfc/mfc_fw_flash_s2miw04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc/mfc_fw_flash_s2miw04.bin \
     vendor/samsung/dm2q/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
