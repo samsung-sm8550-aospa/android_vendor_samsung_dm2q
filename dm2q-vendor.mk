@@ -175,6 +175,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm2q/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/samsung/dm2q/proprietary/vendor/lib64/hw/com.qti.chi.offline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.offline.so \
     vendor/samsung/dm2q/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
+    vendor/samsung/dm2q/proprietary/vendor/lib64/libTsAf_DM123Q.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTsAf_DM123Q.so \
+    vendor/samsung/dm2q/proprietary/vendor/lib64/libTsAwbFront_DM2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTsAwbFront_DM2.so \
+    vendor/samsung/dm2q/proprietary/vendor/lib64/libTsAwb_DM2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTsAwb_DM2.so \
     vendor/samsung/dm2q/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
     vendor/samsung/dm2q/proprietary/vendor/lib64/libcamxcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxcommonutils.so \
     vendor/samsung/dm2q/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
