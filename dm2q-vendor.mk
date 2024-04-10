@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm2q/proprietary/vendor/firmware/qca6490/m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6490/m3.bin \
     vendor/samsung/dm2q/proprietary/vendor/firmware/qca6490/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6490/regdb.bin \
     vendor/samsung/dm2q/proprietary/vendor/firmware/tsp_stm/fts2ba61y_dm2q.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts2ba61y_dm2q.bin \
+    vendor/samsung/dm2q/proprietary/vendor/lib64/SWPD_libTsAf_3K1_TELE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/SWPD_libTsAf_3K1_TELE.so \
     vendor/samsung/dm2q/proprietary/vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.ois.mcu_stm32g.so \
     vendor/samsung/dm2q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin \
     vendor/samsung/dm2q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin \
